@@ -37,7 +37,17 @@ body {
 
 .login .social-media li {
     margin-right: 10px;
-    font-size: 2.5em;
+}
+
+.login .social-media li i {
+	background-color: #26a65b;
+	border-radius: 50%;
+	color: #FFF;
+	transition: background-color 0.5s ease
+}
+
+.login .social-media li:hover i {
+	background-color: #000;
 }
 
 .login ul {
@@ -90,8 +100,4 @@ body {
 .menu nav ul li a:hover {
     color: #26A65B;
 	
-}
-
-main, header {
-	display: block;
 }
