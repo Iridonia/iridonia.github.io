@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    margin: 0 auto;
+    font-family: Poppins, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+/* LOGIN */
+.login {
+    text-align: right;
+    border-bottom: 1px solid #D4D2D2;
+	font-size: 0.857em;
+}
+
+.login .user {
+    margin-right: 50px;
+}
+
+.login .user li {
+    margin-right: 10px;
+}
+
+.login .user li a {
+    color: #0f0f0f;
+}
+
+.login .user li a:hover {
+    color: #26a65b;
+}
+
+.login .icon {
+    margin-right: 50px;
+}
+
+.login .icon li {
+    margin-right: 20px;
+}
+
+.login ul {
+    display: inline-block;
+}
+
+.login ul li {
+    display: inline-block;
+}
+
+.login ul li a {
+    text-decoration: none;
+}
+
+/* 	********************************
+	////////////////MENU////////////////
+	******************************** */
+.menu {
+    margin: 0 45px;
+}
+
+.menu h1 {
+    text-transform: uppercase;
+    display: inline-block;
+	font-size: 2em;
+	line-height: 28px;
+}
+
+.menu nav {
+    text-align: right;
+    float: right;
+}
+
+.menu nav ul {
+    text-align: right;
+	line-height: 28px;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    text-transform: capitalize;
+	margin: 0 10px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.menu nav ul li a:hover {
+    color: #26A65B;
+	
+}
+
+main, header {
+	display: block;
+}
