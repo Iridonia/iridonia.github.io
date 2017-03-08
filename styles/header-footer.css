@@ -4,7 +4,7 @@
 
 body {
     margin: 0 auto;
-    font-family: Poppins, sans-serif;
+    font-family: Lato, Poppins, sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -99,7 +99,12 @@ body {
 
 .menu nav ul li a:hover {
     color: #26A65B;
-	
+}
+
+header::after {
+	content: '';
+	clear: both;
+	display: block;
 }
 
 @media screen and (max-width: 780px) {

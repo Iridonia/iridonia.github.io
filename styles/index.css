@@ -78,12 +78,6 @@ input[type="text"]::-webkit-input-placeholder {
 	outline: none;
 }
 
-header::after {
-    content: '';
-    clear: both;
-    display: block;
-}
-
 @media screen and (max-width: 780px) {
 	.left-part {
 		width: 100%;
