@@ -73,8 +73,9 @@ input[type="text"]::-webkit-input-placeholder {
 
 .domain-check button:hover {
 	background-color: #DDD;
-    box-shadow: 0px 0px 3px black;
+    box-shadow: 0 0 3px black;
     color: #222222;
+	outline: none;
 }
 
 header::after {
