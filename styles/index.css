@@ -129,6 +129,7 @@ input[type="text"]::-webkit-input-placeholder {
     width: 30%;
     display: inline-block;
     margin: 15px 10px;
+    vertical-align: top;
 }
 
 .services article h3 {
@@ -143,6 +144,7 @@ input[type="text"]::-webkit-input-placeholder {
     text-align: left;
     font-weight: lighter;
     font-size: 1.071em;
+    line-height: 30px;
 }
 
 .service-icon-1 {
@@ -187,7 +189,25 @@ input[type="text"]::-webkit-input-placeholder {
     background-color: #26a65b;
 }
 
+@media screen and (max-width: 765px) {
+    .services article {
+        width: 40%;
+    }
 
+    .services article .icon {
+        display: block;
+        text-align: center;
+    }
+
+    .services article span {
+        float: none;
+        margin: 25px 0 0 0;
+    }
+
+    .services article h3 {
+        text-align: center;
+    }
+}
 
 @media screen and (max-width: 565px) {
     .services p {
@@ -205,6 +225,7 @@ input[type="text"]::-webkit-input-placeholder {
         width: 100%;
         text-align: center;
     }
+
 }
 
 /* 	********************************
