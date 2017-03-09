@@ -1,103 +1,109 @@
 /* 	********************************
 	/////////////DOMAIN CHECK////////////////
 	******************************** */
-	
+
 .domain-check {
-	background-color: #DEEFE5;
-	padding: 40px 40px;
+    background-color: #DEEFE5;
+    padding: 40px 40px;
 }
+
 .left-part {
-	width: 49%;
-	display: inline-block;
+    width: 49%;
+    display: inline-block;
 }
 
 .right-part {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
-	text-align: right;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
 }
+
 .search-domain input {
-	width: 60%;
+    width: 60%;
 }
 
 .search-domain button {
-	width: 15%;
+    width: 15%;
 }
 
 .domains {
-	display: block;
-	margin: 15px 20px;
+    display: block;
+    margin: 15px 20px;
 }
 
 .domain-check h2 {
-	font-size: 1.571em;
-	margin: 0;
+    font-size: 1.571em;
+    margin: 0;
 }
 
 .domain-check p {
-	font-size: 1.071em;
+    font-size: 1.071em;
 }
 
 .domain-check input[type=text] {
-	background-color: #26a65b;
-	border-radius: 30px 0 0 30px;
-	border: none;
-	margin: 0;
-	font-size: 1.143em;
-	line-height: 24px;
-	height: 50px;
-	padding: 0 0 0 30px;
+    background-color: #26a65b;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    margin: 0;
+    font-size: 1.143em;
+    line-height: 24px;
+    height: 50px;
+    padding: 0 0 0 30px;
 }
 
-input:focus, button:focus{
+input:focus, button:focus {
     outline: none;
-	color: #FFF;
+    color: #FFF;
 }
 
 input[type="text"]::-webkit-input-placeholder {
-  color: #FFF;
+    color: #FFF;
 }
 
 .domain-check button {
-	background-color: #3E4951;
-	border-radius: 0 30px 30px 0;
-	padding: 0 40px;
-	border: none;
-	margin: 0;
-	color: #FFF;
-	font-size: 1.143em;
-	height: 50px;
-	transition: background-color 0.5s ease;
+    background-color: #3E4951;
+    border-radius: 0 30px 30px 0;
+    padding: 0 40px;
+    border: none;
+    margin: 0;
+    color: #FFF;
+    font-size: 1.143em;
+    height: 50px;
+    transition: background-color 0.5s ease;
 }
 
 .domain-check button:hover {
-	background-color: #DDD;
+    background-color: #DDD;
     box-shadow: 0 0 3px black;
     color: #222222;
-	outline: none;
+    outline: none;
 }
 
 @media screen and (max-width: 780px) {
-	.left-part {
-		width: 100%;
-		display: block;
-		text-align: center;
-	}
-	.right-part {
-		width: 100%;
-		display: block;
-		text-align: center;
-	}
-	.search-domain {
-		text-align: center;
-	}
-	.search-domain input {
-		width: 60%;
-	}
-	.search-domain button {
-		width: 22%;
-	}
+    .left-part {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .right-part {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .search-domain {
+        text-align: center;
+    }
+
+    .search-domain input {
+        width: 60%;
+    }
+
+    .search-domain button {
+        width: 22%;
+    }
 }
 
 /* 	********************************
@@ -105,17 +111,59 @@ input[type="text"]::-webkit-input-placeholder {
 	******************************** */
 
 .services h2 {
-	text-align: center;
-	font-size: 2.143em;
+    text-align: center;
+    font-size: 2.143em;
 }
 
 .services span {
-	color: #26a65b;
+    color: #26a65b;
 }
 
 .services p {
-	text-align: center;
-	width: 35%;
-	margin: 0 auto;
-	line-height: 30px;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+/* 	********************************
+	/////////////SERVICES///////
+	******************************** */
+.start-now {
+    background: url('../images/background-start-now.jpg') no-repeat 0 0;
+    padding: 15px 30px;
+}
+
+.start-now h2 {
+    display: inline-block;
+    font-size: 2.143em;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 30px;
+}
+
+.start-now button {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 25px;
+    padding: 0 40px;
+    line-height: 48px;
+    background-color: #2F2B2B;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.071em;
+}
+@media screen and (max-width: 1120px){
+    .start-now h2 {
+        display: block;
+        text-align: center;
+    }
+
+    .start-now button {
+        display: block;
+        text-align: center;
+    }
 }
