@@ -183,17 +183,17 @@ input[type="text"]::-webkit-input-placeholder {
     transition: background-color 0.5s ease;
 }
 
-.services article:hover span .service-icon-1 {
-    background-color: #000;
+.services article:hover span {
+    background-color: #26a65b;
 }
 
-.services article:hover
+
 
 @media screen and (max-width: 565px) {
     .services p {
         width: 70%;
     }
-    
+
     .services article {
         display: block;
         width: 100%;
