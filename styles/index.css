@@ -180,7 +180,14 @@ input[type="text"]::-webkit-input-placeholder {
     width: 50px;
     position: relative;
     margin: 0 15px 0 0;
+    transition: background-color 0.5s ease;
 }
+
+.services article:hover span .service-icon-1 {
+    background-color: #000;
+}
+
+.services article:hover
 
 @media screen and (max-width: 565px) {
     .services p {
