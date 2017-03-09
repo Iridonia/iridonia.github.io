@@ -108,10 +108,10 @@ input[type="text"]::-webkit-input-placeholder {
 .services {
     padding: 20px;
     margin: 20px;
+    text-align: center;
 }
 
 .services h2 {
-    text-align: center;
     font-size: 2.143em;
 }
 
@@ -119,20 +119,86 @@ input[type="text"]::-webkit-input-placeholder {
     color: #26a65b;
 }
 
-.services p {
-    text-align: center;
+.services > p {
     width: 50%;
     margin: 0 auto;
     line-height: 30px;
+}
+
+.services article {
+    width: 30%;
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+.services article h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.429em;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.services article p {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 1.071em;
+}
+
+.service-icon-1 {
+    background: url(../images/icons/service_icon1.png) no-repeat center center;
+}
+
+.service-icon-2 {
+    background: url(../images/icons/service_icon2.png) no-repeat center center;
+}
+
+.service-icon-3 {
+    background: url(../images/icons/service_icon3.png) no-repeat center center;
+}
+
+.service-icon-4 {
+    background: url(../images/icons/service_icon4.png) no-repeat center center;
+}
+
+.service-icon-5 {
+    background: url(../images/icons/service_icon5.png) no-repeat center center;
+}
+
+.service-icon-6 {
+    background: url(../images/icons/service_icon6.png) no-repeat center center;
+}
+
+.services article span {
+    border: 1px solid #26a65b;
+    border-radius: 50px;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    position: relative;
+    margin: 0 15px 0 0;
 }
 
 @media screen and (max-width: 565px) {
     .services p {
         width: 70%;
     }
+    
+    .services article {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .services article p {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
-
-
 
 /* 	********************************
 	/////////////START-NOW///////
@@ -179,7 +245,7 @@ input[type="text"]::-webkit-input-placeholder {
         font-size: 1.357em;
     }
 
-    .get-start-now  {
+    .get-start-now {
         width: 100%;
         margin: 0 auto;
         display: block;
