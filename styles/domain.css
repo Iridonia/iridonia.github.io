@@ -28,12 +28,17 @@
     border: none;
     border-radius: 5px;
     font-size: 1.071em;
+    cursor: pointer;
 }
 
 .start-now::after {
     content: '';
     clear: both;
     display: block;
+}
+
+input:focus {
+    outline: none;
 }
 
 @media screen and (max-width: 1120px) {

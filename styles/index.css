@@ -258,6 +258,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: none;
     border-radius: 5px;
     font-size: 1.071em;
+    cursor: pointer;
 }
 
 .start-now::after {
