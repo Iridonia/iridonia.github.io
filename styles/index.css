@@ -109,6 +109,7 @@ input[type="text"]::-webkit-input-placeholder {
     padding: 20px;
     margin: 20px;
 }
+
 .services h2 {
     text-align: center;
     font-size: 2.143em;
@@ -120,22 +121,25 @@ input[type="text"]::-webkit-input-placeholder {
 
 .services p {
     text-align: center;
-    width: 35%;
+    width: 50%;
     margin: 0 auto;
     line-height: 30px;
 }
 
 @media screen and (max-width: 565px) {
     .services p {
-        width: 80%;
+        width: 70%;
     }
 }
+
+
 
 /* 	********************************
 	/////////////START-NOW///////
 	******************************** */
 .start-now {
     background: url('../images/background-start-now.jpg') no-repeat;
+    background-size: cover;
     padding: 15px 30px;
 }
 
@@ -147,11 +151,11 @@ input[type="text"]::-webkit-input-placeholder {
     line-height: 48px;
 }
 
-.start-now button {
+.get-start-now {
     display: inline-block;
     text-transform: capitalize;
     margin: 25px;
-    padding: 0 40px;
+    padding: 5px 40px;
     line-height: 48px;
     background-color: #2F2B2B;
     float: right;
@@ -163,9 +167,10 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .start-now::after {
-     content: '';
-     clear: both;
- }
+    content: '';
+    clear: both;
+    display: block;
+}
 
 @media screen and (max-width: 1120px) {
     .start-now h2 {
@@ -174,10 +179,9 @@ input[type="text"]::-webkit-input-placeholder {
         font-size: 1.357em;
     }
 
-    .start-now button {
+    .get-start-now  {
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
         display: block;
-        text-align: center;
     }
 }
