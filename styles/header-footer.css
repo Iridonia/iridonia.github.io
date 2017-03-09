@@ -123,3 +123,12 @@ header::after {
 		text-align: center;
 	}
 }
+@media screen and (max-width: 490px) {
+	.login .social-media {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+		margin-right: 0px;
+		text-align: center;
+	}
+}
