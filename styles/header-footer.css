@@ -6,7 +6,7 @@ body {
     margin: 0 auto;
     font-family: Poppins, sans-serif;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 25px;
 }
 /* LOGIN */
 .login {
@@ -128,7 +128,11 @@ header::after {
 		display: block;
 		width: 100%;
 		padding-left: 0;
-		margin-right: 0px;
+		margin-right: 0;
 		text-align: center;
+	}
+	.menu h1 {
+		text-align: center;
+		display: block;
 	}
 }
