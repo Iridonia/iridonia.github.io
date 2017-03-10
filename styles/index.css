@@ -304,6 +304,41 @@ input[type="text"]::-webkit-input-placeholder {
     line-height: 30px;
 }
 
+.people-about-us article {
+    margin: 20px 10px 0 10px;
+    width: 30%;
+    display: inline-block;
+}
+
+.people-about-us article img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.people-about-us article h3 {
+    font-size: 1.214em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.people-about-us article p {
+    font-size: 0.929em;
+    font-style: italic;
+    color: #666;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.people-about-us article span {
+    color: #666;
+    text-align: left;
+    display: block;
+}
+
+.people-about-us article:hover span {
+    color: #26a65b;
+}
+
 @media screen and (max-width: 565px) {
     .people-about-us p {
         width: 70%;
