@@ -1,0 +1,56 @@
+/* 	********************************
+	/////////////START-NOW//////////
+	********************************  */
+.start-now {
+    background: url('../images/background-start-now.jpg') no-repeat;
+    background-size: cover;
+    padding: 15px 30px;
+}
+
+.start-now h2 {
+    display: inline-block;
+    font-size: 2.143em;
+    color: #FFFFFF;
+    margin: 30px;
+    line-height: 48px;
+}
+
+.get-start-now {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 25px;
+    padding: 5px 40px;
+    line-height: 48px;
+    background-color: #2F2B2B;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.071em;
+    cursor: pointer;
+}
+
+.start-now::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .start-now h2 {
+        display: block;
+        text-align: center;
+        font-size: 1.357em;
+    }
+
+    .get-start-now {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}

@@ -1,6 +1,6 @@
 /* 	********************************
-	/////////////DOMAIN CHECK////////////////
-	******************************** */
+	/////////////DOMAIN CHECK///////
+	********************************  */
 
 .domain-check {
     background-color: #DEEFE5;
@@ -103,8 +103,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	/////////////SERVICES///////
-	******************************** */
+	/////////////SERVICES///////////
+	********************************  */
 .services {
     padding: 20px;
     margin: 20px;
@@ -229,8 +229,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	/////////////START-NOW///////
-	******************************** */
+	/////////////START-NOW//////////
+	********************************  */
 .start-now {
     background: url('../images/background-start-now.jpg') no-repeat;
     background-size: cover;
@@ -258,6 +258,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: none;
     border-radius: 5px;
     font-size: 1.071em;
+    cursor: pointer;
 }
 
 .start-now::after {

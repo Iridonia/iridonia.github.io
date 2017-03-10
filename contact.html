@@ -5,6 +5,7 @@
     <title>Team Iridonia</title>
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/main-section-header.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
 <header>
@@ -92,6 +93,71 @@
         <div class="right">
             <h3>Home &#160; / &#160; Contact Us</h3>
         </div>
+    </section>
+
+    <section class="contact-info">
+        <div>
+            <h1>you can contact with us always</h1>
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Ut wisi enim ad minim veniam quis nostrud exerci tation ullam corper suscipit lobortis nisl ut aliquip exl commodo con sequat Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div>
+            <h2>Call US</h2>
+            <p>
+                uk:<br>
+                Canada:
+            </p>
+            <ul>
+                <li>+111 (444) 454565</li>
+                <li>+111 (444) 454565</li>
+            </ul>
+            <h2>Email US</h2>
+            <p>
+                uk:<br>
+                Canada:
+            </p>
+            <ul>
+                <li>Support@hosting.com</li>
+                <li>Support@hosting.com</li>
+            </ul>
+        </div>
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Your name *" required/>
+                <input type="email" placeholder="Your email *" required/>
+                <input type="number" placeholder="Phone number *" required/>
+                <label>
+                    <select name="country" id="country">
+                        <option value="" disabled selected hidden>Country</option>
+                        <option value="1">UK</option>
+                        <option value="2">Canada</option>
+                    </select>
+                </label>
+                <textarea name="info-area" id="1" cols="30" rows="10" placeholder="Type your massage"></textarea>
+                <button>SEND</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="google-map">
+        <div id="googleMap"></div>
+        <script>
+            function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(42.696552,23.32601),
+                        zoom:12,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(42.696552,23.32601),
+                    map: map
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX2eVkTyZdUPEyIW983RtJ0-PxVaEQ_XU&callback=myMap"></script>
     </section>
 </main>
 </body>
