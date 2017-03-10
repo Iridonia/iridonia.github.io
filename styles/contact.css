@@ -63,7 +63,7 @@
 }
 
 .contact-form .form input {
-    width: 43%;
+    width: 43.3%;
     padding: 10px;
     margin: 10px;
     background: #DFDCDC;
@@ -72,9 +72,9 @@
 }
 
 .contact-form .form select {
-    width: 46%;
+    width: 46.3%;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 15px 10px 10px;
     background: #DFDCDC;
     border: none;
 }
