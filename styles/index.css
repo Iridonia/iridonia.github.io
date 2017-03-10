@@ -280,3 +280,32 @@ input[type="text"]::-webkit-input-placeholder {
         display: block;
     }
 }
+
+/* 	*************************************
+	/////////////PEOPLE OPINION//////////
+	********************************  */
+.people-about-us {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.people-about-us h2 {
+    font-size: 2.143em;
+}
+
+.people-about-us span {
+    color: #26a65b;
+}
+
+.people-about-us > p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 565px) {
+    .people-about-us p {
+        width: 70%;
+    }
+}
