@@ -298,7 +298,7 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-@media screen and (max-width: 620px){
+@media screen and (max-width: 620px) {
     .get-start-now {
         width: 100%;
         margin: 0 auto;
@@ -451,11 +451,26 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
     font-size: 1.071em;
-    padding: 0 150px 0 30px;
+    padding: 0 10.714em 0 30px;
 }
 
 .button {
     float: right;
     margin: 25px;
     padding: 5px 40px;
+}
+
+@media screen and (max-width: 1160px) {
+    .subscribe-news {
+        text-align: center;
+    }
+    .button {
+        float: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .subscribe-news input[type=email] {
+        padding: 0 0 0 20px;
+    }
 }
