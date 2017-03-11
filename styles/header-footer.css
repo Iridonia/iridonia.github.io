@@ -82,6 +82,10 @@ body {
     line-height: 28px;
 }
 
+.menu .small-screen-menu {
+    display: none;
+}
+
 .menu nav {
     text-align: right;
     float: right;
@@ -140,9 +144,26 @@ header::after {
         margin-right: 0;
         text-align: center;
     }
+}
 
+@media screen and (max-width: 787px) {
     .menu h1 {
         text-align: center;
-        display: block;
+        float: left;
+    }
+
+    .menu .small-screen-menu {
+        color: #000;
+        display: inline-block;
+        float: right;
+        margin: 18px 0;
+    }
+
+    .small-screen-menu:hover{
+
+    }
+
+    .menu ul {
+        display: none;
     }
 }
