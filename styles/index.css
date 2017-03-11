@@ -371,7 +371,9 @@ input[type="text"]::-webkit-input-placeholder {
 .owl-theme .owl-nav [class*=owl-] {
     background-color: #AAAAAA;
 }
-
+.owl-carousel.owl-drag .owl-item {
+    margin: 0;
+}
 @media screen and (max-width: 768px) {
     .people-about-us > p {
         width: 70%;
@@ -380,7 +382,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 @media screen and (max-width: 480px) {
     .owl-carousel {
-        margin: 0 10px;
+        margin: 0;
         overflow: hidden;
         width: 100%;
     }
