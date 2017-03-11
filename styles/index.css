@@ -269,6 +269,12 @@ input[type="text"]::-webkit-input-placeholder {
     border-radius: 5px;
     font-size: 1.071em;
     cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.get-start-now:hover {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .start-now::after {
