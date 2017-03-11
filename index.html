@@ -3,212 +3,302 @@
 <head>
     <meta charset="UTF-8">
     <title>Team Iridonia</title>
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<header>
-    <div class="login">
-        <ul class="user">
-            <li>
-                <a href="login.html">Log in</a>
-            </li>
-            <li>
-                <a href="register.html">Register</a>
-            </li>
-        </ul>
-        <ul class="social-media">
-            <li class="facebook">
-                <a href="http://www.facebook.com" target="_blank">
+<div class="wrapper">
+    <header>
+        <div class="login">
+            <ul class="user">
+                <li>
+                    <a href="login.html">Log in</a>
+                </li>
+                <li>
+                    <a href="register.html">Register</a>
+                </li>
+            </ul>
+            <ul class="social-media">
+                <li class="facebook">
+                    <a href="http://www.facebook.com" target="_blank">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-facebook fa-stack-1x"></i>
                     </span>
-                </a>
-            </li>
-            <li class="skype">
-                <a href="https://www.skype.com" target="_blank">
+                    </a>
+                </li>
+                <li class="skype">
+                    <a href="https://www.skype.com" target="_blank">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-skype fa-stack-1x"></i>
                     </span>
-                </a>
-            </li>
-            <li class="twitter">
-                <a href="https://twitter.com/" target="_blank">
+                    </a>
+                </li>
+                <li class="twitter">
+                    <a href="https://twitter.com/" target="_blank">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-twitter fa-stack-1x"></i>
                     </span>
-                </a>
-            </li>
-            <li class="google">
-                <a href="https://plus.google.com/" target="_blank">
+                    </a>
+                </li>
+                <li class="google">
+                    <a href="https://plus.google.com/" target="_blank">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-google-plus fa-stack-1x"></i>
                     </span>
-                </a>
-            </li>
-            <li class="printerest">
-                <a href="http://pinterest.com" target="_blank">
+                    </a>
+                </li>
+                <li class="printerest">
+                    <a href="http://pinterest.com" target="_blank">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-pinterest fa-stack-1x"></i>
                     </span>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <div class="menu">
-        <h1>Hostwind</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html" target="_self">home</a>
-                </li>
-                <li>
-                    <a href="about.html" target="_self">about</a>
-                </li>
-                <li>
-                    <a href="hosting.html" target="_self">hosting</a>
-                </li>
-                <li>
-                    <a href="domain.html" target="_self">domain</a>
-                </li>
-                <li>
-                    <a href="contact.html" target="_self">contact</a>
+                    </a>
                 </li>
             </ul>
-        </nav>
-    </div>
-</header>
-
-<main>
-    <section class="domain-check">
-        <div class="left-part">
-            <h2>Looking For A Premium Quality Domain Name?</h2>
-            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse velill dolore eu feugiat null
-                facilisis at vero eros et.</p>
         </div>
-        <div class="right-part">
-            <div class="search-domain">
-                <input type="text" name="domain" placeholder="Enter domain name here"><!--
+        <div class="menu">
+            <h1>Hostwind</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" target="_self">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html" target="_self">about</a>
+                    </li>
+                    <li>
+                        <a href="hosting.html" target="_self">hosting</a>
+                    </li>
+                    <li>
+                        <a href="domain.html" target="_self">domain</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" target="_self">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="domain-check">
+            <div class="left-part">
+                <h2>Looking For A Premium Quality Domain Name?</h2>
+                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse velill dolore eu feugiat null
+                    facilisis at vero eros et.</p>
+            </div>
+            <div class="right-part">
+                <div class="search-domain">
+                    <input type="text" name="domain" placeholder="Enter domain name here"><!--
                 -->
-                <button><i class="fa fa-search"></i></button>
+                    <button><i class="fa fa-search"></i></button>
+                </div>
+                <div class="domains">
+                    <label>
+                        <input type="radio" name="domaines"/>.com
+                    </label>
+                    <label>
+                        <input type="radio" name="domaines"/>.net
+                    </label>
+                    <label>
+                        <input type="radio" name="domaines"/>.org
+                    </label>
+                    <label>
+                        <input type="radio" name="domaines"/>.us
+                    </label>
+                    <label>
+                        <input type="radio" name="domaines"/>.info
+                    </label>
+                </div>
             </div>
-            <div class="domains">
-                <label>
-                    <input type="radio" name="domaines"/>.com
-                </label>
-                <label>
-                    <input type="radio" name="domaines"/>.net
-                </label>
-                <label>
-                    <input type="radio" name="domaines"/>.org
-                </label>
-                <label>
-                    <input type="radio" name="domaines"/>.us
-                </label>
-                <label>
-                    <input type="radio" name="domaines"/>.info
-                </label>
-            </div>
-        </div>
-    </section>
-    <section class="services">
-        <h2>Available <span>Services</span></h2>
-        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse illum dolore eu feugiat nulla facilisis
-            at vero eros et.</p>
-        <article>
-            <div class="icon">
-                <span class="service-icon-1"></span>
-            </div>
-            <h3>windows server</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-        <article>
-            <div class="icon">
-                <span class="service-icon-2"></span>
-            </div>
-            <h3>linux server</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-        <article>
-            <div class="icon">
-                <span class="service-icon-3"></span>
-            </div>
-            <h3>domain registration</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-        <article>
-            <div class="icon">
-                <span class="service-icon-4"></span>
-            </div>
-            <h3>bulk domains</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-        <article>
-            <div class="icon">
-                <span class="service-icon-5"></span>
-            </div>
-            <h3>domain transfer</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-        <article>
-            <div class="icon">
-                <span class="service-icon-6"></span>
-            </div>
-            <h3>whois search</h3>
-            <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis autem
-                vel eum iriure dolor.</p>
-        </article>
-    </section>
-    <section class="start-now">
-        <h2>20,000+ People trust Sparks! Be one of them today.</h2>
+        </section>
+        <section class="services">
+            <h2>Available <span>Services</span></h2>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse illum dolore eu feugiat nulla
+                facilisis
+                at vero eros et.</p>
+            <article>
+                <a href="google.com" class="link-service">
+                    <div class="icon">
+                        <span class="service-icon-1"></span>
+                    </div>
+                    <h3>windows server</h3>
+                </a>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+            <article>
+                <div class="icon">
+                    <span class="service-icon-2"></span>
+                </div>
+                <h3>linux server</h3>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+            <article>
+                <div class="icon">
+                    <span class="service-icon-3"></span>
+                </div>
+                <h3>domain registration</h3>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+            <article>
+                <div class="icon">
+                    <span class="service-icon-4"></span>
+                </div>
+                <h3>bulk domains</h3>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+            <article>
+                <div class="icon">
+                    <span class="service-icon-5"></span>
+                </div>
+                <h3>domain transfer</h3>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+            <article>
+                <div class="icon">
+                    <span class="service-icon-6"></span>
+                </div>
+                <h3>whois search</h3>
+                <p>Claritas est etiam processus dynami qui sequitur mutationem consuetudil lectorum Mirum est not Duis
+                    autem
+                    vel eum iriure dolor.</p>
+            </article>
+        </section>
+        <section class="start-now">
+            <h2>20,000+ People trust Sparks! Be one of them today.</h2>
 
-        <input type="submit" class="get-start-now" value="get start now"/>
-    </section>
-    <section class="people-about-us">
-        <h2>What People <span>Says</span></h2>
-        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse illum dolore eu feugiat nulla facilisis
-            at vero eros et.</p>
-        <article>
-            <img src="images/client_img1.png" alt="client_img1">
-            <h3>Rubel Hossen</h3>
-            <span>Graphic Designer</span>
-            <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt
-                ut
-                laoreet dolore magna</p>
-        </article>
-        <article>
-            <img src="images/client_img2.png" alt="client_img2">
-            <h3>Romana Nasrin</h3>
-            <span>Web developer</span>
-            <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt
-                ut
-                laoreet dolore magna</p>
-        </article>
-        <article>
-            <img src="images/client_img3.png" alt="client_img3">
-            <h3>Delowar Hossen</h3>
-            <span>Webhost Lead</span>
-            <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt
-                ut
-                laoreet dolore magna</p>
-        </article>
-    </section>
-</main>
+            <input type="submit" class="get-start-now" value="get start now"/>
+        </section>
+        <section class="people-about-us">
+            <h2>What People <span>Says</span></h2>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse illum dolore eu feugiat nulla
+                facilisis
+                at vero eros et.</p>
+            <div class="owl-carousel owl-theme">
+                <div>
+                    <article>
+                        <img src="images/client_img1.png" alt="client_img1">
+                        <h3>Rubbel Hoossen</h3>
+                        <span>Graphic Designer</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img2.png" alt="client_img2">
+                        <h3>Romanna Nasrin</h3>
+                        <span>Web developer</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img3.png" alt="client_img3">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img3.png" alt="client_img3">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img3.png" alt="client_img3">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img3.png" alt="client_img3">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt
+                            ut
+                            laoreet dolore magna</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-news">
+            <div><h2>Subscribe to our newsletter</h2></div>
 
-<footer>
-</footer>
+            <input type="email" class="email" name="email" placeholder="Your Email"><input type="submit"
+                                                                                           class="subscribe-now"
+                                                                                           value="Subscribe"/>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+</div>
 </body>
 </html>

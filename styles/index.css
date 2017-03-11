@@ -111,6 +111,11 @@ input[type="text"]::-webkit-input-placeholder {
     text-align: center;
 }
 
+.services a {
+    display: block;
+    float: none;
+}
+
 .services h2 {
     font-size: 2.143em;
 }
@@ -303,21 +308,19 @@ input[type="text"]::-webkit-input-placeholder {
     margin: 0 auto;
     line-height: 30px;
 }
-
 .people-about-us article {
-    margin: 20px 10px 0 10px;
-    width: 30%;
-    display: inline-block;
+    margin: 30px 20px;
+    width: calc(100% - 40px);
 }
 
-.people-about-us article img {
-    float: left;
-    margin: 0 15px 0 0;
+.people-about-us div article img {
+    float: none;
+    margin: auto;
 }
 
-.people-about-us article h3 {
+.people-about-us div article h3 {
     font-size: 1.214em;
-    text-align: left;
+    text-align: center;
     margin-bottom: 0;
 }
 
@@ -325,13 +328,13 @@ input[type="text"]::-webkit-input-placeholder {
     font-size: 0.929em;
     font-style: italic;
     color: #666;
-    text-align: left;
+    text-align: justify;
     margin-top: 25px;
 }
 
 .people-about-us article span {
     color: #666;
-    text-align: left;
+    text-align: center;
     display: block;
 }
 
@@ -339,8 +342,61 @@ input[type="text"]::-webkit-input-placeholder {
     color: #26a65b;
 }
 
-@media screen and (max-width: 565px) {
+.owl-carousel .owl-item img {
+    width: auto;
+    margin: auto;
+}
+
+.owl-carousel {
+    margin: 0 90px;
+    overflow: hidden;
+    width: calc(100% - 180px);
+}
+
+@media screen and (max-width: 768px) {
     .people-about-us p {
         width: 70%;
     }
+}
+
+/* 	*************************************
+	/////////////NEWSLETTER//////////
+	********************************  */
+
+.subscribe-news {
+    background: url("../images/background_newsletter.jpg") no-repeat;
+    background-size: cover;
+    text-align: right;
+}
+
+.subscribe-news h2 {
+    display: inline-block;
+    font-size: 2.143em;
+    color: #FFFFFF;
+    margin: 30px;
+    line-height: 48px;
+    text-align: left;
+}
+
+.subscribe-news input[type=submit] {
+    display: inline-block;
+    text-transform: capitalize;
+    height: 35px;
+    line-height: 35px;
+    background-color: #2F2B2B;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.071em;
+    cursor: pointer;
+}
+
+.subscribe-news input[type=email] {
+    display: inline-block;
+    height: 35px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.071em;
 }

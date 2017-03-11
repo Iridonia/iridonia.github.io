@@ -9,6 +9,11 @@ body {
     line-height: 25px;
 }
 
+.wrapper {
+    max-width: 1600px;
+    margin: auto;
+}
+
 /* LOGIN */
 .login {
     text-align: right;
