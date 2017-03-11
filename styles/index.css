@@ -369,6 +369,10 @@ input[type="text"]::-webkit-input-placeholder {
 / / fa-chevron-right content: "\f054";
 }
 
+.owl-theme .owl-nav [class*=owl-] {
+    background-color: #AAAAAA;
+}
+
 @media screen and (max-width: 768px) {
     .people-about-us > p {
         width: 70%;
