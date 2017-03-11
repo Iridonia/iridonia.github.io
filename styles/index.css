@@ -354,8 +354,16 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 @media screen and (max-width: 768px) {
-    .people-about-us p {
+    .people-about-us > p {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .owl-carousel {
+        margin: 0 10px;
+        overflow: hidden;
+        width: 100%;
     }
 }
 
