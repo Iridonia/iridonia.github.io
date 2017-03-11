@@ -308,6 +308,7 @@ input[type="text"]::-webkit-input-placeholder {
     margin: 0 auto;
     line-height: 30px;
 }
+
 .people-about-us article {
     margin: 30px 20px;
     width: calc(100% - 40px);
@@ -353,13 +354,28 @@ input[type="text"]::-webkit-input-placeholder {
     width: calc(100% - 180px);
 }
 
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+    font-family: 'fontAwesome';
+
+}
+
+.owl-carousel .owl-nav .owl-prev:before {
+/ / fa-chevron-left content: "\f053";
+}
+
+.owl-carousel .owl-nav .owl-next:after {
+/ / fa-chevron-right content: "\f054";
+}
+
 @media screen and (max-width: 768px) {
     .people-about-us > p {
         width: 70%;
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     .owl-carousel {
         margin: 0 10px;
         overflow: hidden;
