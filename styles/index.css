@@ -291,9 +291,19 @@ input[type="text"]::-webkit-input-placeholder {
     }
 
     .get-start-now {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .get-start-now {
         width: 100%;
         margin: 0 auto;
         display: block;
+        float: none;
     }
 }
 
@@ -408,7 +418,7 @@ input[type="text"]::-webkit-input-placeholder {
 .subscribe-news {
     background: url("../images/background_newsletter.jpg") no-repeat;
     background-size: cover;
-    text-align: right;
+    padding: 15px 30px;
 }
 
 .subscribe-news h2 {
@@ -417,28 +427,35 @@ input[type="text"]::-webkit-input-placeholder {
     color: #FFFFFF;
     margin: 30px;
     line-height: 48px;
-    text-align: left;
 }
 
 .subscribe-news input[type=submit] {
     display: inline-block;
     text-transform: capitalize;
-    height: 35px;
+    height: 46px;
     line-height: 35px;
     background-color: #2F2B2B;
     color: #FFFFFF;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     font-size: 1.071em;
     cursor: pointer;
+    padding: 0 30px;
 }
 
 .subscribe-news input[type=email] {
     display: inline-block;
-    height: 35px;
+    height: 45px;
     background: none;
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     font-size: 1.071em;
+    padding: 0 150px 0 30px;
+}
+
+.button {
+    float: right;
+    margin: 25px;
+    padding: 5px 40px;
 }
