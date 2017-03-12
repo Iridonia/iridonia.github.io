@@ -306,7 +306,40 @@ input[type="text"]::-webkit-input-placeholder {
         float: none;
     }
 }
+.server-panel {
+    text-align: left;
+    padding: 15px 30px;
+}
 
+.server-panel::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.server-panel img {
+    float: right;
+    display: inline-block;
+    margin: 0 30px 30px 30px;
+    max-width: 100%;
+}
+
+.left-side {
+    display: inline-block;
+    width: 47%;
+    margin: 50px 40px 30px 40px;
+}
+
+.server-panel h2 {
+    font-size: 2em;
+    line-height: 31px;
+    margin: 30px  30px 30px 0;
+    text-align: left;
+}
+
+.server-panel p {
+    font-size: 1.143em;
+}
 /* 	*************************************
 	/////////////SITE SPEED PANEL//////////
 	********************************  */
@@ -337,9 +370,8 @@ input[type="text"]::-webkit-input-placeholder {
 .site-speed-panel h2 {
     font-size: 2em;
     line-height: 31px;
-    margin: 30px;
+    margin: 30px  30px 30px 0;;
     text-align: left;
-    margin-left: 0;
 }
 
 .site-speed-panel p {
