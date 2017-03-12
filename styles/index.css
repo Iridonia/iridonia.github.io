@@ -412,9 +412,42 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	*************************************
-	/////////////NEWSLETTER//////////
+	/////////////SITE SPEED PANEL//////////
 	********************************  */
+.site-speed-panel {
+    position: relative;
+    text-align: right;
+    padding: 15px 30px;
+}
 
+.site-speed-panel p {
+    font-size: 1.143em;
+    text-align: left;
+}
+
+.site-speed-panel img {
+    float: left;
+    display: inline-block;
+    margin: 30px;
+    max-width: 100%;
+}
+
+.site-speed-panel h2 {
+    font-size: 2em;
+    line-height: 31px;
+    margin: 30px;
+    text-align: left;
+}
+
+.site-speed-panel::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* 	*************************************
+    /////////////NEWSLETTER//////////
+    ********************************  */
 .subscribe-news {
     background: url("../images/background_newsletter.jpg") no-repeat;
     background-size: cover;
@@ -457,6 +490,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
     font-size: 1.071em;
+
     padding: 0 10.714em 0 30px;
 }
 
@@ -470,13 +504,21 @@ input[type="text"]::-webkit-input-placeholder {
     .subscribe-news {
         text-align: center;
     }
+
     .button {
         float: none;
         padding: 0;
         margin: 0;
         text-align: center;
     }
+
     .subscribe-news input[type=email] {
-        padding: 0 0 0 20px;
+        padding: 0 0 0 10px;
+        width: calc(100% - 110px);
+    }
+
+    .subscribe-now {
+        padding: 0 10px;
+        width: auto;
     }
 }
