@@ -306,6 +306,7 @@ input[type="text"]::-webkit-input-placeholder {
         float: none;
     }
 }
+
 .server-panel {
     text-align: left;
     padding: 15px 30px;
@@ -327,19 +328,38 @@ input[type="text"]::-webkit-input-placeholder {
 .left-side {
     display: inline-block;
     width: 47%;
-    margin: 50px 40px 30px 40px;
+    margin: 100px 40px 30px 40px;
 }
 
 .server-panel h2 {
     font-size: 2em;
     line-height: 31px;
-    margin: 30px  30px 30px 0;
+    margin: 30px 30px 30px 0;
     text-align: left;
 }
 
 .server-panel p {
     font-size: 1.143em;
 }
+
+@media screen and (max-width: 1178px) {
+    .server-panel img {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .left-side {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .server-panel h2, .server-panel p {
+        text-align: center;
+    }
+}
+
 /* 	*************************************
 	/////////////SITE SPEED PANEL//////////
 	********************************  */
@@ -370,7 +390,7 @@ input[type="text"]::-webkit-input-placeholder {
 .site-speed-panel h2 {
     font-size: 2em;
     line-height: 31px;
-    margin: 30px  30px 30px 0;;
+    margin: 30px 30px 30px 0;;
     text-align: left;
 }
 
