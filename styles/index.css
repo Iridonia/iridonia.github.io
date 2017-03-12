@@ -342,6 +342,28 @@ input[type="text"]::-webkit-input-placeholder {
     font-size: 1.143em;
 }
 
+.get-start-now-v2 {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0 35px;
+    padding: 0 35px;
+    line-height: 48px;
+    background-color: #26A65B;
+    float: left;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.071em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.get-start-now-v2:hover {
+    background-color: #2F2B2B;
+    color: #26A65B;
+}
+
 @media screen and (max-width: 1178px) {
     .server-panel img {
         margin: 0 auto;
@@ -357,6 +379,22 @@ input[type="text"]::-webkit-input-placeholder {
 
     .server-panel h2, .server-panel p {
         text-align: center;
+    }
+
+    .get-start-now-v2 {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .get-start-now-v2 {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        float: none;
     }
 }
 
@@ -399,6 +437,28 @@ input[type="text"]::-webkit-input-placeholder {
     text-align: left;
 }
 
+.get-start-now-v3 {
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0 70px;
+    padding: 0 35px;
+    line-height: 48px;
+    background-color: #26A65B;
+    float: right;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.071em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.get-start-now-v3:hover {
+    background-color: #2F2B2B;
+    color: #26A65B;
+}
+
 @media screen and (max-width: 1178px) {
     .site-speed-panel img {
         margin: 0 auto;
@@ -414,6 +474,22 @@ input[type="text"]::-webkit-input-placeholder {
 
     .site-speed-panel h2, .site-speed-panel p {
         text-align: center;
+    }
+
+    .get-start-now-v3 {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .get-start-now-v3 {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        float: none;
     }
 }
 
