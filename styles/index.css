@@ -398,8 +398,8 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-/* 	*************************************
-	/////////////SITE SPEED PANEL//////////
+/* 	********************************
+	///////SITE SPEED PANEL/////////
 	********************************  */
 .site-speed-panel {
     text-align: right;
@@ -493,8 +493,8 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-/* 	*************************************
-	/////////////PEOPLE OPINION//////////
+/* 	********************************
+	/////////PEOPLE OPINION/////////
 	********************************  */
 .people-about-us {
     padding: 20px;
@@ -597,8 +597,8 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
-/* 	*************************************
-    /////////////NEWSLETTER//////////
+/* 	********************************
+    /////////////NEWSLETTER/////////
     ********************************  */
 .subscribe-news {
     background: url("../images/background_newsletter.jpg") no-repeat;
