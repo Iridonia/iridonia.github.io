@@ -308,6 +308,64 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	*************************************
+	/////////////SITE SPEED PANEL//////////
+	********************************  */
+.site-speed-panel {
+    text-align: right;
+    padding: 15px 30px;
+}
+
+.site-speed-panel::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.site-speed-panel img {
+    float: left;
+    display: inline-block;
+    margin: 0 30px 30px 30px;
+    max-width: 100%;
+}
+
+.right-side {
+    display: inline-block;
+    width: 47%;
+    margin: 50px 40px 30px 40px;
+}
+
+.site-speed-panel h2 {
+    font-size: 2em;
+    line-height: 31px;
+    margin: 30px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.site-speed-panel p {
+    font-size: 1.143em;
+    text-align: left;
+}
+
+@media screen and (max-width: 1178px) {
+    .site-speed-panel img {
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .right-side {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .site-speed-panel h2, .site-speed-panel p {
+        text-align: center;
+    }
+}
+
+/* 	*************************************
 	/////////////PEOPLE OPINION//////////
 	********************************  */
 .people-about-us {
@@ -408,64 +466,6 @@ input[type="text"]::-webkit-input-placeholder {
         margin: 0;
         overflow: hidden;
         width: 100%;
-    }
-}
-
-/* 	*************************************
-	/////////////SITE SPEED PANEL//////////
-	********************************  */
-.site-speed-panel {
-    text-align: right;
-    padding: 15px 30px;
-}
-
-.site-speed-panel::after {
-    content: '';
-    clear: both;
-    display: block;
-}
-
-.site-speed-panel img {
-    float: left;
-    display: inline-block;
-    margin: 0 30px 30px 30px;
-    max-width: 100%;
-}
-
-.right-side {
-    display: inline-block;
-    width: 47%;
-    margin: 50px 40px 30px 40px;
-}
-
-.site-speed-panel h2 {
-    font-size: 2em;
-    line-height: 31px;
-    margin: 30px;
-    text-align: left;
-    margin-left: 0;
-}
-
-.site-speed-panel p {
-    font-size: 1.143em;
-    text-align: left;
-}
-
-@media screen and (max-width: 1178px) {
-    .site-speed-panel img {
-        margin: 0 auto;
-        display: block;
-        float: none;
-    }
-
-    .right-side {
-        display: block;
-        width: 100%;
-        margin: 0;
-    }
-
-    .site-speed-panel h2, .site-speed-panel p {
-        text-align: center;
     }
 }
 
