@@ -429,7 +429,7 @@ input[type="text"]::-webkit-input-placeholder {
     line-height: 48px;
 }
 
-.subscribe-news input[type=submit] {
+.subscribe-now {
     display: inline-block;
     text-transform: capitalize;
     height: 46px;
@@ -442,11 +442,17 @@ input[type="text"]::-webkit-input-placeholder {
     font-size: 1.071em;
     cursor: pointer;
     padding: 0 30px;
+    transition: background-color 0.5s ease;
+}
+
+.subscribe-now:hover {
+    background-color: #FFFFFF;
+    color: #2F2B2B;
 }
 
 .subscribe-news input[type=email] {
     display: inline-block;
-    height: 45px;
+    height: 43px;
     background: none;
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
