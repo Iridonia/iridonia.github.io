@@ -1,0 +1,157 @@
+/* 	********************************
+	////////////HOSTING/////////////
+	********************************  */
+.hosting {
+    background: url('../images/background-start-now.jpg') no-repeat;
+    background-size: cover;
+    padding: 15px 30px;
+    margin: 0 auto;
+}
+
+.hosting-div {
+    display: inline-block;
+}
+
+#left-div {
+    width: 70%;
+}
+
+#right-div {
+    width: 29%;
+    text-align: right;
+}
+
+.hosting .hosting-div button {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #3E4951;
+    color: #FFFFFF;
+    border: none;
+    margin: 5px;
+}
+
+.hosting .hosting-div button:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.hosting .hosting-div h2 {
+    margin: 20px 30px 0;
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.hosting .hosting-div p{
+    color: #425851;
+    margin: 0 30px 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* 	********************************
+	///////HOSTING - TABLE//////////
+	********************************  */
+.hosting-table table, thead, tbody, tr, td, th {
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+
+.hosting-table thead tr th {
+    text-transform: uppercase;
+    background: #3E4951;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.hosting-table th, td {
+    padding: 5px 20px;
+}
+
+.hosting-table tbody {
+    background: #F2F2F2;
+    font-size: 0.9em;
+}
+
+.hosting-table tr:nth-child(even) td, .hosting-table tr:nth-child(even) th {
+    background: #FFFFFF;
+}
+
+.hosting-table tbody tr td button{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background: #26A65B;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.hosting-table tbody tr td button:hover{
+    background: #FFFFFF;
+    color: #26A65B;
+}
+
+@media screen and (max-width: 690px) {
+    .hosting-table thead tr th {
+        font-size: 1em;
+    }
+
+    .hosting-table tbody {
+        font-size: 0.6em;
+    }
+
+    .hosting-table th, td {
+        padding: 0 15px;
+    }
+
+    .hosting-table tbody tr td button{
+        padding: 10px 20px;
+        font-size: 0.7em;
+        border-radius: 7px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hosting-table thead tr th {
+        font-size: 0.6em;
+    }
+
+    .hosting-table tbody {
+        font-size: 0.5em;
+    }
+
+    .hosting-table th, td {
+        padding: 0 10px;
+    }
+
+    .hosting-table tbody tr td button{
+        padding: 5px 10px;
+        font-size: 0.6em;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .hosting-table thead tr th {
+        font-size: 0.6em;
+    }
+
+    .hosting-table tbody {
+        font-size: 0.4em;
+    }
+
+    .hosting-table th, td {
+        padding: 0 5px;
+    }
+
+    .hosting-table tbody tr td button{
+        padding: 5px 5px;
+        font-size: 0.7em;
+        border-radius: 4px;
+    }
+}
