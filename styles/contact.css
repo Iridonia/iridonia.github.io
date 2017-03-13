@@ -12,8 +12,7 @@
 	********************************  */
 
 .contact-info {
-    padding: 40px 100px 0 100px;
-    max-width: 1000px;
+    padding: 20px 130px 0;
 }
 
 .contact-info h1 {
@@ -25,12 +24,18 @@
     font-size: 1.1em;
 }
 
+@media screen and (max-width: 920px) {
+    .contact-info{
+        padding: 20px 30px 0;
+    }
+}
+
 /* 	********************************
 	/////////CONTACT - FORM/////////
 	********************************  */
 
 .contact-form {
-    padding: 20px 100px;
+    padding: 20px 130px;
 }
 
 .contact-form div{
@@ -102,4 +107,14 @@ input::-webkit-inner-spin-button {
     background: #26a65b;
     outline: none;
     border: none;
+}
+
+@media screen and (max-width: 920px) {
+    .contact-form{
+        padding: 20px 30px 0;
+    }
+
+    .contact-form .form {
+        margin: 0 auto;
+    }
 }
