@@ -136,9 +136,9 @@
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
     .hosting-table thead tr th {
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 
     .hosting-table tbody {
