@@ -138,7 +138,7 @@
 
 @media screen and (max-width: 350px) {
     .hosting-table thead tr th {
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 
     .hosting-table tbody {
@@ -151,7 +151,51 @@
 
     .hosting-table tbody tr td button{
         padding: 5px 5px;
-        font-size: 0.7em;
+        font-size: 0.6em;
         border-radius: 4px;
     }
+}
+
+/* 	********************************
+	////////DOMAIN - CHECK//////////
+	********************************  */
+.check-domain {
+    text-align: center;
+    width: 70%;
+    min-width: 250px;
+    margin: 0 auto;
+    padding: 9px;
+}
+
+.check-domain .info {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.check-domain .search-domain input {
+    background: #26A65B;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+
+.check-domain .search-domain button {
+    background-color: #3E4951;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    max-width: 100px;
+    color: #FFF;
+    padding: 10px 15px;
+    transition: background-color 0.5s ease;
+}
+
+.check-domain .search-domain button:hover {
+    background-color: #DDD;
+    box-shadow: 0 0 3px black;
+    color: #222222;
+    cursor: pointer;
+    outline: none;
 }

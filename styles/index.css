@@ -77,6 +77,7 @@ input[type="text"]::-webkit-input-placeholder {
     background-color: #DDD;
     box-shadow: 0 0 3px black;
     color: #222222;
+    cursor: pointer;
     outline: none;
 }
 
