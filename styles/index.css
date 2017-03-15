@@ -20,7 +20,7 @@
 }
 
 .header li {
-    font-size: 1.143em;
+    font-size: 1.143rem;
     padding: 0;
     line-height: 40px;
     margin-right: 15px;
@@ -29,12 +29,12 @@
 }
 
 .header h2 {
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 50px;
 }
 
 .header p {
-    font-size: 1.443em;
+    font-size: 1.443rem;
     line-height: 30px;
 }
 
@@ -56,9 +56,9 @@
     font-weight: bold;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .header button:hover {
@@ -150,12 +150,12 @@
 }
 
 .domain-check h2 {
-    font-size: 1.571em;
+    font-size: 1.571rem;
     margin: 0;
 }
 
 .domain-check p {
-    font-size: 1.071em;
+    font-size: 1.071rem;
 }
 
 .domain-check input[type=text] {
@@ -163,7 +163,7 @@
     border-radius: 30px 0 0 30px;
     border: none;
     margin: 0;
-    font-size: 1.070em;
+    font-size: 1.070rem;
     line-height: 24px;
     height: 50px;
     padding: 0 0 0 20px;
@@ -185,9 +185,9 @@ input[type="text"]::-webkit-input-placeholder {
     border: none;
     margin: 0;
     color: #FFF;
-    font-size: 1.143em;
+    font-size: 1.143rem;
     height: 50px;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .domain-check button:hover {
@@ -235,7 +235,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .services h2 {
-    font-size: 2.143em;
+    font-size: 2.143rem;
 }
 
 .services span {
@@ -263,7 +263,7 @@ input[type="text"]::-webkit-input-placeholder {
 .services article h3 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.429em;
+    font-size: 1.429rem;
     text-align: left;
     padding-left: 10px;
 }
@@ -271,7 +271,7 @@ input[type="text"]::-webkit-input-placeholder {
 .services article p {
     text-align: left;
     font-weight: lighter;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     line-height: 30px;
 }
 
@@ -310,7 +310,7 @@ input[type="text"]::-webkit-input-placeholder {
     width: 50px;
     position: relative;
     margin: 0 15px 0 0;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .services article:hover span {
@@ -367,7 +367,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .start-now h2 {
     display: inline-block;
-    font-size: 2.143em;
+    font-size: 2.143rem;
     color: #FFFFFF;
     margin: 30px;
     line-height: 48px;
@@ -385,9 +385,9 @@ input[type="text"]::-webkit-input-placeholder {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .get-start-now:hover {
@@ -405,7 +405,7 @@ input[type="text"]::-webkit-input-placeholder {
     .start-now h2 {
         display: block;
         text-align: center;
-        font-size: 1.357em;
+        font-size: 1.357rem;
     }
 
     .get-start-now {
@@ -450,14 +450,14 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .server-panel h2 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 31px;
     margin: 30px 30px 30px 0;
     text-align: left;
 }
 
 .server-panel p {
-    font-size: 1.143em;
+    font-size: 1.143rem;
 }
 
 .get-start-now-v2 {
@@ -472,9 +472,9 @@ input[type="text"]::-webkit-input-placeholder {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .get-start-now-v2:hover {
@@ -544,14 +544,14 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .site-speed-panel h2 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 31px;
     margin: 30px 30px 30px 0;;
     text-align: left;
 }
 
 .site-speed-panel p {
-    font-size: 1.143em;
+    font-size: 1.143rem;
     text-align: left;
 }
 
@@ -567,9 +567,9 @@ input[type="text"]::-webkit-input-placeholder {
     font-weight: bold;
     border: none;
     border-radius: 5px;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     cursor: pointer;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .get-start-now-v3:hover {
@@ -621,7 +621,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .people-about-us h2 {
-    font-size: 2.143em;
+    font-size: 2.143rem;
 }
 
 .people-about-us span {
@@ -645,13 +645,13 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 .people-about-us div article h3 {
-    font-size: 1.214em;
+    font-size: 1.214rem;
     text-align: center;
     margin-bottom: 0;
 }
 
 .people-about-us article p {
-    font-size: 0.929em;
+    font-size: 0.929rem;
     font-style: italic;
     color: #666;
     text-align: justify;
@@ -726,7 +726,7 @@ input[type="text"]::-webkit-input-placeholder {
 
 .subscribe-news h2 {
     display: inline-block;
-    font-size: 2.143em;
+    font-size: 2.143rem;
     color: #FFFFFF;
     margin: 30px;
     line-height: 48px;
@@ -742,10 +742,10 @@ input[type="text"]::-webkit-input-placeholder {
     font-weight: bold;
     border: none;
     border-radius: 0 5px 5px 0;
-    font-size: 1.071em;
+    font-size: 1.071rem;
     cursor: pointer;
     padding: 0 30px;
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .subscribe-now:hover {
@@ -759,9 +759,9 @@ input[type="text"]::-webkit-input-placeholder {
     background: none;
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
-    font-size: 1.071em;
+    font-size: 1.071rem;
 
-    padding: 0 10.714em 0 30px;
+    padding: 0 10.714rem 0 30px;
 }
 
 .button {
