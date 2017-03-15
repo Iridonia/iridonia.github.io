@@ -119,11 +119,21 @@ header::after {
     display: block;
 }
 
+.top-menu-controls::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 @media screen and (max-width: 780px) {
     .menu ul {
         display: block;
         width: 100%;
         padding: 0;
+    }
+
+    .menu nav {
+        float: none;
     }
 
     .menu ul li {
@@ -136,19 +146,7 @@ header::after {
         display: block;
         text-align: center;
     }
-}
 
-@media screen and (max-width: 490px) {
-    .login .social-media {
-        display: block;
-        width: 100%;
-        padding-left: 0;
-        margin-right: 0;
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 787px) {
     .menu h1 {
         text-align: center;
         float: left;
@@ -161,11 +159,21 @@ header::after {
         margin: 18px 0;
     }
 
-    .small-screen-menu:hover{
-
+    nav:hover ul {
+        display: block;
     }
 
     .menu ul {
         display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .login .social-media {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
     }
 }
