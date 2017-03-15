@@ -29,7 +29,7 @@
 }
 
 .header h2 {
-    font-size: 42px;
+    font-size: 3em;
     line-height: 50px;
 }
 
@@ -72,10 +72,53 @@
     display: block;
 }
 
-/* 	********************************
-	/////////////DOMAIN CHECK///////
-	********************************  */
+@media screen and (max-width: 1000px ) {
+    .header {
+        padding: 0;
+    }
 
+    .header ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .header li {
+        margin-right: 5px;
+    }
+
+    .header h2 {
+        display: block;
+        text-align: center;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header p {
+        text-align: center;
+    }
+
+    .header button {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+}
+
+.header .left-side {
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 30px 40px;
+}
+
+/* 	********************************
+    /////////////DOMAIN CHECK///////
+    ********************************  */
 .domain-check {
     background-color: #DEEFE5;
     padding: 40px 40px;
@@ -178,8 +221,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	/////////////SERVICES///////////
-	********************************  */
+    /////////////SERVICES///////////
+    ********************************  */
 .services {
     padding: 20px;
     margin: 20px;
@@ -314,8 +357,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	/////////////START-NOW//////////
-	********************************  */
+    /////////////START-NOW//////////
+    ********************************  */
 .start-now {
     background: url('../images/background-start-now.jpg') no-repeat;
     background-size: cover;
@@ -446,7 +489,7 @@ input[type="text"]::-webkit-input-placeholder {
         float: none;
     }
 
-    .left-side {
+    .server-panel .left-side {
         display: block;
         width: 100%;
         margin: 0;
@@ -474,8 +517,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	///////SITE SPEED PANEL/////////
-	********************************  */
+    ///////SITE SPEED PANEL/////////
+    ********************************  */
 .site-speed-panel {
     text-align: right;
     padding: 15px 30px;
@@ -569,8 +612,8 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-	/////////PEOPLE OPINION/////////
-	********************************  */
+    /////////PEOPLE OPINION/////////
+    ********************************  */
 .people-about-us {
     padding: 20px;
     margin: 20px;
