@@ -147,4 +147,13 @@ input::-webkit-inner-spin-button {
         margin: 15px auto;
         display: block;
     }
+
+    .contact-form p {
+        font-size: 1.4em;
+    }
+
+    .contact-form ul {
+        font-size: 0.7em;
+        padding-left: 10px;
+    }
 }
