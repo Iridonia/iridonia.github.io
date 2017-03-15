@@ -218,6 +218,9 @@ input[type="text"]::-webkit-input-placeholder {
     .search-domain input {
         width: 60%;
     }
+    .domain-check input[type=text]{
+        width: 213px;
+    }
 }
 
 /* 	********************************
@@ -425,6 +428,104 @@ input[type="text"]::-webkit-input-placeholder {
     }
 }
 
+/* 	********************************
+    /////////////PLANS//////////
+    ********************************  */
+.plans {
+    text-align: center;
+}
+
+.plans article {
+    border: 2px solid #d6ddd9;
+    display: inline-block;
+    width: 17%;
+    text-align: center;
+    vertical-align: top;
+    margin: 15px 10px;
+    padding: 20px 5px;
+    transition: all 0.4s ease;
+}
+
+.plans article:hover {
+    border: 2px solid #FFFFFF;
+    box-shadow: 3px 3px 20px #AAA;
+}
+
+.plans h3 {
+    font-size: 1.429em;
+}
+
+.plans img {
+    margin: 15px 0;
+}
+
+.plans ul li {
+    list-style-type: none;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.fa-times {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
+
+.plans article span {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.786em;
+    font-weight: bold;
+}
+
+.plans button {
+    font-size: 1.1em;
+    background: none;
+    border: 1px solid #26A65B;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 15px 0;
+    transition: all 0.4s ease;
+}
+
+.plans button:hover {
+    background-color: #26A65B;
+    color: #FFFFFF;
+}
+
+.plans h2 {
+    font-size: 2.143rem;
+}
+
+.plans h2 span {
+    color: #26a65b;
+}
+
+.plans > p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 935px) {
+    .plans article {
+        width: 30%;
+        margin: 30px 15px;
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .plans article {
+        width: 80%;
+        margin: 15px auto;
+    }
+}
+
+/* 	********************************
+    /////////////SERVER-PANEL//////////
+    ********************************  */
 .server-panel {
     text-align: left;
     padding: 15px 30px;
@@ -441,6 +542,7 @@ input[type="text"]::-webkit-input-placeholder {
     display: inline-block;
     margin: 0 30px 30px 30px;
     max-width: 100%;
+    width: 453px;
 }
 
 .server-panel .left-side {
@@ -760,8 +862,7 @@ input[type="text"]::-webkit-input-placeholder {
     border: 1px solid white;
     border-radius: 5px 0 0 5px;
     font-size: 1.071rem;
-
-    padding: 0 10.714rem 0 30px;
+    padding: 0 30px 0 30px;
 }
 
 .button {
@@ -784,7 +885,7 @@ input[type="text"]::-webkit-input-placeholder {
 
     .subscribe-news input[type=email] {
         padding: 0 0 0 10px;
-        width: calc(100% - 110px);
+        width: calc(100% - 130px);
     }
 
     .subscribe-now {
