@@ -110,6 +110,9 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 920px) {
+    .contact-info h2 {
+        text-align: center;
+    }
     .contact-form {
         padding: 20px 30px 0;
     }
@@ -125,12 +128,12 @@ input::-webkit-inner-spin-button {
 
     .contact-form .form select {
         width: 100%;
-        margin: 0;
+        margin: 5px 0;
         box-sizing: border-box;
     }
 
     .contact-form .form textarea {
-        margin: 10px 0;
+        margin: 5px 0;
         width: calc(100% - 20px);
     }
 
