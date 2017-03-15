@@ -119,12 +119,6 @@ header::after {
     display: block;
 }
 
-.top-menu-controls::after {
-    content: '';
-    clear: both;
-    display: block;
-}
-
 @media screen and (max-width: 780px) {
     .menu ul {
         display: block;
@@ -134,6 +128,7 @@ header::after {
 
     .menu nav {
         float: none;
+        text-align: left;
     }
 
     .menu ul li {
@@ -159,12 +154,13 @@ header::after {
         margin: 18px 0;
     }
 
-    nav:hover ul {
+    .small-screen-menu:hover ~ nav ul {
         display: block;
     }
 
     .menu ul {
         display: none;
+        margin: 0;
     }
 }
 
