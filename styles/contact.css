@@ -76,13 +76,17 @@
     border: none;
 }
 
-.contact-form .form select {
+.contact-form .form #country {
     width: 46.3%;
     padding: 10px;
     margin: 10px 15px 10px 10px;
     background: #DFDCDC;
     border: none;
-    color: #AAA;
+    color: gray;
+}
+
+.dark {
+    color: #000000;
 }
 
 .contact-form .form textarea {
@@ -142,5 +146,14 @@ input::-webkit-inner-spin-button {
     .contact-form .form button {
         margin: 15px auto;
         display: block;
+    }
+
+    .contact-form p {
+        font-size: 1.4em;
+    }
+
+    .contact-form ul {
+        font-size: 0.7em;
+        padding-left: 10px;
     }
 }

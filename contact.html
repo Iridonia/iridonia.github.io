@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="styles/main-section-header.css">
     <link rel="stylesheet" href="styles/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#country').css('color','#B5A6B0');
+            $('#country').change(function() {
+                var current = $('#country').val();
+                if (current != 'null') {
+                    $('#country').css('color','black');
+                } else {
+                    $('#country').css('color','#B5A6B0');
+                }
+            });
+        });
+    </script>
 </head>
 <body>
 <div class="wrapper">
@@ -80,7 +94,7 @@
                         <a href="domain.html" target="_self">domain</a>
                     </li>
                     <li>
-                        <a href="contact.html" target="_self">contact</a>
+                        <a href="contact.html" target="_self" class="bold">contact</a>
                     </li>
                 </ul>
             </nav>
@@ -133,11 +147,13 @@
                     <input type="text" placeholder="Your name *" required/>
                     <input type="email" placeholder="Your email *" required/>
                     <input type="number" placeholder="Phone number *" required/>
-                    <select name="country" id="country">
-                        <option value="" disabled selected hidden>Country</option>
-                        <option value="1">UK</option>
-                        <option value="2">Canada</option>
-                    </select>
+                    <label>
+                        <select name="countrys" id="country">
+                            <option value="null" selected disabled hidden class="option">Country *</option>
+                            <option value="1" class="dark">UK</option>
+                            <option value="2" class="dark">Canada</option>
+                        </select>
+                    </label>
                     <textarea name="info-area" id="1" cols="30" rows="10" placeholder="Type your massage"></textarea>
                     <button>SEND</button>
                 </form>
