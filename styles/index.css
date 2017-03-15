@@ -1,4 +1,78 @@
 /* 	********************************
+	/////////////HEADER///////
+	********************************  */
+
+.header {
+    background-color: #26A65B;
+    padding: 70px;
+    color: #FFFFFF;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header .left-side {
+    display: inline-block;
+    width: 47%;
+    margin: 30px 40px 30px 40px;
+}
+
+.header li {
+    font-size: 1.143em;
+    padding: 0;
+    line-height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.header h2 {
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.header p {
+    font-size: 1.443em;
+    line-height: 30px;
+}
+
+.header img {
+    float: right;
+    display: inline-block;
+    margin: 0 30px 30px 30px;
+    max-width: 100%;
+}
+
+.header button {
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 0 35px;
+    line-height: 48px;
+    background: none;
+    float: left;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1.071em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.header button:hover {
+    background-color: #FFFFFF;
+    color: #2F2B2B;
+}
+
+.header::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* 	********************************
 	/////////////DOMAIN CHECK///////
 	********************************  */
 
@@ -326,7 +400,7 @@ input[type="text"]::-webkit-input-placeholder {
     max-width: 100%;
 }
 
-.left-side {
+.server-panel .left-side {
     display: inline-block;
     width: 47%;
     margin: 100px 40px 30px 40px;
