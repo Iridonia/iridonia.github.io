@@ -488,6 +488,7 @@ input[type="text"]::-webkit-input-placeholder {
     padding: 10px 20px;
     margin: 15px 0;
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .plans button:hover {
@@ -524,7 +525,7 @@ input[type="text"]::-webkit-input-placeholder {
 }
 
 /* 	********************************
-    /////////////SERVER-PANEL//////////
+    //////////SERVER-PANEL//////////
     ********************************  */
 .server-panel {
     text-align: left;
