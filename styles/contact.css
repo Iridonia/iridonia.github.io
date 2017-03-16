@@ -109,9 +109,17 @@ input::-webkit-inner-spin-button {
     text-align: center;
     width: 150px;
     height: 40px;
-    background: #26a65b;
+    background: #FFFFFF;
+    border: 1px solid #26a65b;
+    border-radius: 10px;
     outline: none;
-    border: none;
+    font-weight: bold;
+}
+
+.contact-form .form button:hover {
+    background: #26a65b;
+    cursor: pointer;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 920px) {
