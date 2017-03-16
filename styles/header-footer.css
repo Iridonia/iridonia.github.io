@@ -156,6 +156,11 @@ header::after {
         float: left;
     }
 
+    .menu h1 a {
+        color: #000;
+        text-decoration: none;
+    }
+
     .menu .small-screen-menu {
         color: #000;
         display: inline-block;
