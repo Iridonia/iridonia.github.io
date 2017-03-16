@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function() {
-            $('#country').css('color','#B5A6B0');
-            $('#country').change(function() {
+        $(document).ready(function () {
+            $('#country').css('color', '#B5A6B0');
+            $('#country').change(function () {
                 var current = $('#country').val();
                 if (current != 'null') {
-                    $('#country').css('color','black');
+                    $('#country').css('color', 'black');
                 } else {
-                    $('#country').css('color','#B5A6B0');
+                    $('#country').css('color', '#B5A6B0');
                 }
             });
         });
@@ -28,10 +28,10 @@
         <div class="login">
             <ul class="user">
                 <li>
-                    <a href="login.html">Log in</a>
+                    <a href="login.html" target="_self" class="bold">Log in</a>
                 </li>
                 <li>
-                    <a href="register.html">Register</a>
+                    <a href="register.html" target="_self" class="bold">Register</a>
                 </li>
             </ul>
             <ul class="social-media">
