@@ -164,7 +164,7 @@ header::after {
     }
 
     .small-screen-menu:hover ~ nav ul {
-        display: block;
+        display: inline-block;
     }
 
     .menu ul {
