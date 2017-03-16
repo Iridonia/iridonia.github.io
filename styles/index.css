@@ -179,6 +179,21 @@ input[type="text"]::-webkit-input-placeholder {
     color: #FFF;
 }
 
+input[type=radio]:not(old){
+    width   : 28px;
+    margin  : 0;
+    padding : 0;
+    opacity : 0;
+}
+
+input[type=radio   ]:not(old) + label{
+    display: inline-block;
+    margin-left: -28px;
+    padding-left: 28px;
+    background-
+    line-height: 24px;
+}
+
 .domain-check button {
     background-color: #3E4951;
     border-radius: 0 30px 30px 0;
