@@ -76,7 +76,7 @@
     border: none;
 }
 
-.contact-form .form #country {
+.contact-form .form select {
     width: 46.3%;
     padding: 10px;
     margin: 10px 15px 10px 10px;
@@ -114,12 +114,14 @@ input::-webkit-inner-spin-button {
     border-radius: 10px;
     outline: none;
     font-weight: bold;
+    transition: all 0.5s ease;
 }
 
 .contact-form .form button:hover {
     background: #26a65b;
     cursor: pointer;
     color: #FFFFFF;
+
 }
 
 @media screen and (max-width: 920px) {
@@ -161,7 +163,6 @@ input::-webkit-inner-spin-button {
     }
 
     .contact-form ul {
-        font-size: 0.7em;
         padding-left: 10px;
     }
 }
