@@ -114,7 +114,11 @@ body {
     color: #0f0f0f;
 }
 
-.menu nav ul li a:hover {
+.menu nav ul li a.bold {
+    color: #26a65b;
+}
+
+.menu nav ul li a:hover:not(.bold) {
     color: #26A65B;
 }
 
