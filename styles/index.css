@@ -507,6 +507,7 @@ input[type=radio]:not(old):checked + label{
     padding: 10px 20px;
     margin: 15px 0;
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 .plans button:hover {
@@ -543,7 +544,7 @@ input[type=radio]:not(old):checked + label{
 }
 
 /* 	********************************
-    /////////////SERVER-PANEL//////////
+    //////////SERVER-PANEL//////////
     ********************************  */
 .server-panel {
     text-align: left;

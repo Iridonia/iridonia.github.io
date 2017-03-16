@@ -6,46 +6,14 @@
     <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 3,
-                        nav: false
-                    },
-                    1000: {
-                        items: 5,
-                        nav: true,
-                        loop: false
-                    }
-                }
-            });
-            jQuery('.owl-prev').html('<i class="fa fa-arrow-left" aria-hidden="true"></i>');
-            jQuery('.owl-next').html('<i class="fa fa-arrow-right" aria-hidden="true"></i>');
-            $(".small-screen-menu").hover(
-                function () {
-                    $(".menu ul").css(
-                        {
-                            display: "block"
-                        }
-                    );
-                });
-        });
-    </script>
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/main-section-header.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/about.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/js-function.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -53,10 +21,10 @@
         <div class="login">
             <ul class="user">
                 <li>
-                    <a href="login.html" target="_self" class="bold">Log in</a>
+                    <a href="login.html" target="_self">Log in</a>
                 </li>
                 <li>
-                    <a href="register.html" target="_self" class="bold">Register</a>
+                    <a href="register.html" target="_self">Register</a>
                 </li>
             </ul>
             <ul class="social-media">
@@ -104,6 +72,7 @@
         </div>
         <div class="menu">
             <h1>Hostwind</h1>
+            <div class="small-screen-menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
             <nav>
                 <ul>
                     <li>
@@ -216,6 +185,24 @@
                         <h3>Delowar Hossen</h3>
                         <span>Webhost Lead</span>
                         <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti ncidunt ut laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img7.png" alt="client_img7">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt ut laoreet dolore magna</p>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="images/client_img8.png" alt="client_img8">
+                        <h3>Delowar Hossen</h3>
+                        <span>Webhost Lead</span>
+                        <p>Lorem ipsum dolor sit amet consectetuer adip iscing elit sed diam nonummy nibh euismod ti
+                            ncidunt ut laoreet dolore magna</p>
                     </article>
                 </div>
             </div>

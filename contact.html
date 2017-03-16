@@ -6,21 +6,10 @@
     <link rel="stylesheet" href="styles/header-footer.css">
     <link rel="stylesheet" href="styles/main-section-header.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/js-function.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#country').css('color', '#B5A6B0');
-            $('#country').change(function () {
-                var current = $('#country').val();
-                if (current != 'null') {
-                    $('#country').css('color', 'black');
-                } else {
-                    $('#country').css('color', '#B5A6B0');
-                }
-            });
-        });
-    </script>
 </head>
 <body>
 <div class="wrapper">
@@ -28,10 +17,10 @@
         <div class="login">
             <ul class="user">
                 <li>
-                    <a href="login.html" target="_self" class="bold">Log in</a>
+                    <a href="login.html" target="_self">Log in</a>
                 </li>
                 <li>
-                    <a href="register.html" target="_self" class="bold">Register</a>
+                    <a href="register.html" target="_self">Register</a>
                 </li>
             </ul>
             <ul class="social-media">
@@ -79,6 +68,7 @@
         </div>
         <div class="menu">
             <h1>Hostwind</h1>
+            <div class="small-screen-menu"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
             <nav>
                 <ul>
                     <li>
@@ -162,24 +152,6 @@
 
         <section class="google-map">
             <div id="googleMap"></div>
-            <script>
-                function myMap() {
-                    var mapOptions = {
-                        center: new google.maps.LatLng(42.696552, 23.32601),
-                        zoom: 12,
-                        scrollwheel: false,
-                        navigationControl: false,
-                        mapTypeControl: false,
-                        scaleControl: false,
-                        mapTypeId: google.maps.MapTypeId.HYBRID
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
-                    var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(42.696552, 23.32601),
-                        map: map
-                    });
-                }
-            </script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBX2eVkTyZdUPEyIW983RtJ0-PxVaEQ_XU&callback=myMap"></script>
         </section>
     </main>
