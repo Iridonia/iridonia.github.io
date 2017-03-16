@@ -189,13 +189,13 @@ input[type=radio]:not(old){
 input[type=radio   ]:not(old) + label{
     display: inline-block;
     margin-left: -28px;
-    padding-left: 28px;
-    background: url("../images/circle.png");
-    line-height: 24px;
+    padding-left: 19px;
+    background: url("../images/circle.png") no-repeat;
+    line-height: 16px;
 }
 
 input[type=radio]:not(old):checked + label{
-    background: url("../images/radio-on-button.png");
+    background: url("../images/radio-on-button.png") no-repeat;
 }
 
 .domain-check button {
