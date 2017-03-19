@@ -131,11 +131,16 @@
         padding: 40px;
         box-sizing: border-box;
     }
+
     .faq article {
         display: block;
         width: 100%;
         margin: 50px 0;
         padding: 5px 10px 5px 10px;
         box-sizing: border-box;
+    }
+
+    .faq article h3, .faq article p {
+        text-align: center;
     }
 }
