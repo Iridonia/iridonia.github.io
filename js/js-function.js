@@ -27,6 +27,9 @@ $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
         responsiveClass: true,
+        nav: false,
+        navContainer: false,
+        navContainerClass: false,
         responsive: {
             0: {
                 items: 1,
@@ -43,16 +46,8 @@ $(document).ready(function () {
             }
         }
     });
-    jQuery('.owl-prev').html('<i class="fa fa-arrow-left" aria-hidden="true"></i>');
-    jQuery('.owl-next').html('<i class="fa fa-arrow-right" aria-hidden="true"></i>');
-    $(".small-screen-menu").hover(
-        function () {
-            $(".menu ul").css(
-                {
-                    display: "block"
-                }
-            );
-        });
+    jQuery('.owl-prev').html('');
+    jQuery('.owl-next').html('');
 });
 
 $(document).ready(function() {
