@@ -92,3 +92,50 @@
         margin: 15px auto;
     }
 }
+
+/* 	********************************
+    /////////////FAQ//////////
+    ********************************  */
+.faq {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.faq h2 {
+    font-size: 2.143em;
+}
+
+.faq article {
+    background-color: #F5F0F0;
+    width: 40%;
+    margin: 10px;
+    display: inline-block;
+
+    padding: 5px 15px;
+    color: #4d4b4b;
+}
+
+.faq article h3 {
+    font-size: 1.714em;
+    text-align: left;
+}
+
+.faq article p {
+    font-size: 1.071em;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1134px) {
+    .faq {
+        margin: 0 auto;
+        padding: 40px;
+        box-sizing: border-box;
+    }
+    .faq article {
+        display: block;
+        width: 100%;
+        margin: 50px 0;
+        padding: 5px 10px 5px 10px;
+        box-sizing: border-box;
+    }
+}
