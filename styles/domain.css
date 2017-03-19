@@ -211,133 +211,14 @@
             border-radius: 4px;
         }
     }
+}
 
-    @media screen and (max-width: 600px) {
-    }
-
-    /* 	********************************
-        ///////////DOMAIN CHECK/////////
-        ********************************  */
-    .domain-check {
-        background-color: #DEEFE5;
-        padding: 40px 20px;
-    }
-
-    .left-part {
-        width: 49%;
-        display: inline-block;
-    }
-
-    .right-part {
-        width: 50%;
-        display: inline-block;
-        vertical-align: top;
-        text-align: right;
-    }
-
-    .search-domain input {
-        width: 60%;
-    }
-
-    .search-domain button {
-        width: 15%;
-    }
-
-    .domains {
-        display: block;
-        margin: 15px 20px;
-    }
-
-    .domain-check h2 {
-        font-size: 1.571rem;
-        margin: 0;
-    }
-
-    .domain-check p {
-        font-size: 1.071rem;
-    }
-
-    .domain-check input[type=text] {
-        background-color: #26a65b;
-        border-radius: 30px 0 0 30px;
-        border: none;
-        margin: 0;
-        font-size: 1rem;
-        line-height: 24px;
-        height: 50px;
-        padding: 0 0 0 20px;
-        color: #FFF;
-    }
-
-    .domain-check input:focus, button:focus {
-        outline: none;
-        color: #FFF;
-    }
-
-    .domain-check input[type="text"]::-webkit-input-placeholder, .domain-check input[type="email"]::-webkit-input-placeholder {
-        color: #FFF;
-    }
-
-    .domain-check input[type=radio]:not(old) {
-        width: 28px;
-        margin: 0;
-        padding: 0;
-        opacity: 0;
-    }
-
-    .domain-check input[type=radio   ]:not(old) + label {
-        display: inline-block;
-        margin-left: -28px;
-        padding-left: 19px;
-        background: url("../images/circle.png") no-repeat;
-        line-height: 16px;
-    }
-
-    .domain-check input[type=radio]:not(old):checked + label {
-        background: url("../images/radio-on-button.png") no-repeat;
-    }
-
-    .domain-check button {
-        background-color: #3E4951;
-        border-radius: 0 30px 30px 0;
-        border: none;
-        margin: 0;
-        color: #FFF;
-        font-size: 1.143rem;
-        height: 50px;
-        transition: all 0.5s ease;
-    }
-
-    .domain-check button:hover {
-        background-color: #DDD;
-        box-shadow: 0 0 3px black;
-        color: #222222;
-        cursor: pointer;
-        outline: none;
-    }
-
-    @media screen and (max-width: 780px) {
-        .left-part {
-            width: 100%;
-            display: block;
-            text-align: center;
-        }
-
-        .right-part {
-            width: 100%;
-            display: block;
-            text-align: center;
-        }
-
-        .search-domain {
-            text-align: center;
-        }
-
-        .search-domain input {
-            width: 60%;
-        }
-
-        .domain-check input[type=text] {
-            width: calc(100% - 25%);
-        }
-    }
+.custom-check {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.info p {
+    font-size: 2em;
+    line-height: 30px;
+    font-weight: bold;
+}
