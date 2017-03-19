@@ -110,14 +110,23 @@
     width: 40%;
     margin: 10px;
     display: inline-block;
-
     padding: 5px 15px;
     color: #4d4b4b;
+    transition: all 0.5s ease;
+}
+
+.faq article:hover {
+    box-shadow: 2px 2px 15px #AAA;
 }
 
 .faq article h3 {
     font-size: 1.714em;
     text-align: left;
+    transition: all 0.5s ease;
+}
+
+.faq article:hover h3 {
+    color: #26a65b;
 }
 
 .faq article p {
