@@ -93,6 +93,11 @@ h2 {
     line-height: 28px;
 }
 
+.menu h1 a {
+    color: #000;
+    text-decoration: none;
+}
+
 .menu .small-screen-menu {
     display: none;
 }
