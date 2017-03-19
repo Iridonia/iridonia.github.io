@@ -423,7 +423,7 @@
     display: block;
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1250px) {
     .start-now h2 {
         display: block;
         text-align: center;
