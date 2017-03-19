@@ -1,5 +1,5 @@
 /* 	********************************
-	/////////////HEADER///////
+	/////////////HEADER/////////////
 	********************************  */
 
 .header {
@@ -117,7 +117,7 @@
 }
 
 /* 	********************************
-    /////////////DOMAIN CHECK///////
+    ///////////DOMAIN CHECK/////////
     ********************************  */
 .domain-check {
     background-color: #DEEFE5;
@@ -175,7 +175,7 @@ input:focus, button:focus {
     color: #FFF;
 }
 
-input[type="text"]::-webkit-input-placeholder {
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
     color: #FFF;
 }
 
@@ -448,7 +448,7 @@ input[type=radio]:not(old):checked + label{
 }
 
 /* 	********************************
-    /////////////PLANS//////////
+    /////////////PLANS//////////////
     ********************************  */
 .plans {
     text-align: center;
@@ -799,28 +799,6 @@ input[type=radio]:not(old):checked + label{
     margin: 0 auto;
     overflow: hidden;
     width: 100%;
-}
-
-.owl-carousel .owl-nav .owl-prev,
-.owl-carousel .owl-nav .owl-next,
-.owl-carousel .owl-dot {
-    font-family: 'fontAwesome', sans-serif;
-}
-
-.owl-carousel .owl-nav .owl-prev:before {
-/ / fa-chevron-left content: "\f053";
-}
-
-.owl-carousel .owl-nav .owl-next:after {
-/ / fa-chevron-right content: "\f054";
-}
-
-.owl-theme .owl-nav [class*=owl-] {
-    background-color: #AAAAAA;
-}
-
-.owl-carousel.owl-drag .owl-item {
-    margin: 0;
 }
 
 @media screen and (max-width: 768px) {

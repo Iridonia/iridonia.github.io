@@ -23,6 +23,11 @@ h2 {
     line-height: 48px;
 }
 
+input[type=text], input[type=email] {
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
 /* ********************************
    //////////////LOGIN/////////////
    ******************************** */
@@ -219,8 +224,13 @@ header::after {
     margin: 0 20px;
 }
 
+.footer-menu article:hover h2 {
+    color: #26A65B;
+}
+
 .footer-menu article h2 {
     color: #FFFFFF;
+    transition: all 0.3s ease;
 }
 
 .footer-menu .info {
@@ -255,10 +265,19 @@ header::after {
 .footer-menu ul li a {
     color: #CCCCCC;
     text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.footer-menu ul li a:hover {
+    color: #26A65B;
 }
 
 .footer-menu ul {
     padding: 0;
+}
+
+.links {
+    text-transform: capitalize;
 }
 
 .newsletter input {
@@ -278,6 +297,7 @@ header::after {
     border-radius: 0 5px 5px 0;
     margin: 0;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1020px) {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <title>Team Iridonia</title>
@@ -118,9 +118,9 @@
             </div>
             <div class="right-part">
                 <div class="search-domain">
-                    <input type="text" name="domain" placeholder="Enter domain name here"><!--
-                -->
-                    <button><i class="fa fa-search"></i></button>
+                    <form>
+                        <input type="text" name="domain" placeholder="Enter domain name here" /><button><i class="fa fa-search"></i></button>
+                    </form>
                 </div>
                 <div class="domains">
                     <input type="radio" name="domaines"/>
@@ -193,7 +193,7 @@
 
         <section class="start-now">
             <h2>20,000+ People trust Sparks! Be one of them today.</h2>
-            <input type="submit" class="get-start-now" value="get start now"/>
+            <button class="get-start-now">get start now</button>
         </section>
 
         <section class="plans">
@@ -257,7 +257,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
                     laoreet doloremagna aliquam erat volutpat.</p>
             </div>
-            <input type="submit" value="Get Start Now" class="get-start-now-v2"/>
+            <button class="get-start-now-v2">Get Start Now</button>
         </section>
 
         <section class="site-speed-panel">
@@ -267,7 +267,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
                     laoreet doloremagna aliquam erat volutpat.</p>
             </div>
-            <input type="submit" value="Get Start Now" class="get-start-now-v3"/>
+            <button class="get-start-now-v3">Get Start Now</button>
         </section>
 
         <section class="people-about-us">
@@ -353,7 +353,7 @@
         <section class="subscribe-news">
             <h2>Subscribe to our newsletter</h2>
             <div class="button">
-                <form>
+                <form action="https://softuni.bg">
                     <input type="email" class="email" name="email" placeholder="Your Email"><input type="submit"
                                                                                                    class="subscribe-now"
                                                                                                    value="Subscribe"/>
@@ -363,7 +363,7 @@
     </main>
 
     <footer>
-        <section class="footer-menu">
+        <div class="footer-menu">
             <article class="info">
                 <h2>Hostwind</h2>
                 <p>Duis autem vel eum iriure dolor in hen drerit in vul putate velit esse molestie consequat vel illum
@@ -381,10 +381,10 @@
             <article class="links">
                 <h2>Links</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">hosting plan</a></li>
-                    <li><a href="#">Domain</a></li>
-                    <li><a href="#">service</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hosting.html">hosting plan</a></li>
+                    <li><a href="domain.html">Domain</a></li>
+                    <li><a href="about.html">services</a></li>
                 </ul>
             </article>
             <article class="newsletter">
@@ -395,8 +395,8 @@
                     <button><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                 </form>
             </article>
-        </section>
-        <section class="created-by">
+        </div>
+        <div class="created-by">
             <p>©Copyright 2016 Iridonia. All Rights Reserved</p>
             <ul class="social-media">
                 <li class="facebook">
@@ -440,7 +440,7 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </div>
     </footer>
 </div>
 </body>
