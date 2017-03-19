@@ -45,7 +45,7 @@
     color: #FFFFFF;
 }
 
-.hosting .hosting-div p{
+.hosting .hosting-div p {
     color: #425851;
     margin: 0 30px 20px;
     font-size: 1.2em;
@@ -60,16 +60,31 @@
     margin: 40px auto;
 }
 
+.hosting-table table {
+    margin: 40px auto;
+    padding: 10px;
+}
+
 .hosting-table thead tr th {
     text-transform: uppercase;
     background: #3E4951;
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding: 20px 35px;
 }
 
 .hosting-table th, td {
-    padding: 5px 20px;
+    padding: 5px 40px;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.hosting-table tr td:last-of-type {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 0;
 }
 
 .hosting-table tbody {
@@ -81,22 +96,25 @@
     background: #FFFFFF;
 }
 
-.hosting-table tbody tr td button{
+.hosting-table tbody tr td button {
     padding: 10px 20px;
     text-transform: capitalize;
     background: #26A65B;
     color: #FFFFFF;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 0.9em;
+    border: none;
+    transition: all 0.5s ease;
+    display: inline-block;
 }
 
-.hosting-table tbody tr td button:hover{
+.hosting-table tbody tr td button:hover {
     background: #FFFFFF;
     color: #26A65B;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 990px) {
     .hosting-table thead tr th {
         font-size: 1em;
     }
@@ -109,93 +127,217 @@
         padding: 0 15px;
     }
 
-    .hosting-table tbody tr td button{
+    .hosting-table tbody tr td button {
         padding: 10px 20px;
-        font-size: 0.7em;
+        font-size: 0.5em;
         border-radius: 7px;
     }
-}
 
-@media screen and (max-width: 500px) {
-    .hosting-table thead tr th {
-        font-size: 0.6em;
+    table {
+        border: 0;
+        width: 100%;
+        margin: 0;
     }
 
-    .hosting-table tbody {
-        font-size: 0.5em;
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
     }
 
-    .hosting-table th, td {
-        padding: 0 10px;
+    table tr {
+        margin: 0 0 10px 0;
+        display: block;
+        border-bottom: 1px solid #ddd;
     }
 
-    .hosting-table tbody tr td button{
-        padding: 5px 10px;
-        font-size: 0.6em;
-        border-radius: 5px;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .hosting-table thead tr th {
-        font-size: 0.6em;
+    table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
     }
 
-    .hosting-table tbody {
-        font-size: 0.4em;
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px solid #CCCCCC;
     }
 
-    .hosting-table th, td {
-        padding: 0 5px;
+    table td:last-child {
+        border-bottom: 0;
     }
 
-    .hosting-table tbody tr td button{
-        padding: 5px 5px;
-        font-size: 0.6em;
-        border-radius: 4px;
+    .hosting-table tr td:last-of-type {
+        font-size: 3em;
     }
-}
 
-/* 	********************************
-	////////DOMAIN - CHECK//////////
-	********************************  */
-.check-domain {
-    text-align: center;
-    width: 70%;
-    min-width: 250px;
-    margin: 0 auto;
-    padding: 9px;
-}
+    @media screen and (max-width: 500px) {
+        .hosting-table thead tr th {
+            font-size: 0.6em;
+        }
 
-.check-domain .info {
-    font-size: 2em;
-    font-weight: bold;
-}
+        .hosting-table tbody {
+            font-size: 0.5em;
+        }
 
-.check-domain .search-domain input {
-    background: #26A65B;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    max-width: 400px;
-}
+        .hosting-table th, td {
+            padding: 0 10px;
+        }
 
+        .hosting-table tbody tr td button {
+            padding: 10px 20px;
+            font-size: 0.5em;
+            border-radius: 5px;
+        }
+    }
 
-.check-domain .search-domain button {
-    background-color: #3E4951;
-    border-radius: 5px;
-    border: none;
-    margin: 0;
-    max-width: 100px;
-    color: #FFF;
-    padding: 10px 15px;
-    transition: background-color 0.5s ease;
-}
+    @media screen and (max-width: 350px) {
+        .hosting-table thead tr th {
+            font-size: 0.6em;
+        }
 
-.check-domain .search-domain button:hover {
-    background-color: #DDD;
-    box-shadow: 0 0 3px black;
-    color: #222222;
-    cursor: pointer;
-    outline: none;
-}
+        .hosting-table tbody {
+            font-size: 0.4em;
+        }
+
+        .hosting-table th, td {
+            padding: 0 5px;
+        }
+
+        .hosting-table tbody tr td button {
+            padding: 10px 20px;
+            font-size: 0.6em;
+            border-radius: 4px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+    }
+
+    /* 	********************************
+        ///////////DOMAIN CHECK/////////
+        ********************************  */
+    .domain-check {
+        background-color: #DEEFE5;
+        padding: 40px 20px;
+    }
+
+    .left-part {
+        width: 49%;
+        display: inline-block;
+    }
+
+    .right-part {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: right;
+    }
+
+    .search-domain input {
+        width: 60%;
+    }
+
+    .search-domain button {
+        width: 15%;
+    }
+
+    .domains {
+        display: block;
+        margin: 15px 20px;
+    }
+
+    .domain-check h2 {
+        font-size: 1.571rem;
+        margin: 0;
+    }
+
+    .domain-check p {
+        font-size: 1.071rem;
+    }
+
+    .domain-check input[type=text] {
+        background-color: #26a65b;
+        border-radius: 30px 0 0 30px;
+        border: none;
+        margin: 0;
+        font-size: 1rem;
+        line-height: 24px;
+        height: 50px;
+        padding: 0 0 0 20px;
+        color: #FFF;
+    }
+
+    .domain-check input:focus, button:focus {
+        outline: none;
+        color: #FFF;
+    }
+
+    .domain-check input[type="text"]::-webkit-input-placeholder, .domain-check input[type="email"]::-webkit-input-placeholder {
+        color: #FFF;
+    }
+
+    .domain-check input[type=radio]:not(old) {
+        width: 28px;
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+    }
+
+    .domain-check input[type=radio   ]:not(old) + label {
+        display: inline-block;
+        margin-left: -28px;
+        padding-left: 19px;
+        background: url("../images/circle.png") no-repeat;
+        line-height: 16px;
+    }
+
+    .domain-check input[type=radio]:not(old):checked + label {
+        background: url("../images/radio-on-button.png") no-repeat;
+    }
+
+    .domain-check button {
+        background-color: #3E4951;
+        border-radius: 0 30px 30px 0;
+        border: none;
+        margin: 0;
+        color: #FFF;
+        font-size: 1.143rem;
+        height: 50px;
+        transition: all 0.5s ease;
+    }
+
+    .domain-check button:hover {
+        background-color: #DDD;
+        box-shadow: 0 0 3px black;
+        color: #222222;
+        cursor: pointer;
+        outline: none;
+    }
+
+    @media screen and (max-width: 780px) {
+        .left-part {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        .right-part {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        .search-domain {
+            text-align: center;
+        }
+
+        .search-domain input {
+            width: 60%;
+        }
+
+        .domain-check input[type=text] {
+            width: calc(100% - 25%);
+        }
+    }
