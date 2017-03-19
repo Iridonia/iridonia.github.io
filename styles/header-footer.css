@@ -207,7 +207,7 @@ header::after {
 }
 
 /* ********************************
-   ////////////////FOOTER////////////
+   ////////////////FOOTER//////////
    ******************************** */
 .footer-menu {
     display: flex;
@@ -288,6 +288,10 @@ header::after {
     padding: 15px 10px;
     margin: 0;
     width: calc(100% - 40%);
+}
+
+.newsletter input::-webkit-input-placeholder {
+    color: #FFFFFF;
 }
 
 .newsletter button {
