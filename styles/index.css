@@ -170,23 +170,23 @@
     color: #FFF;
 }
 
-input:focus, button:focus {
+.domain-check input:focus, button:focus {
     outline: none;
     color: #FFF;
 }
 
-input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder {
+.domain-check input[type="text"]::-webkit-input-placeholder, .domain-check input[type="email"]::-webkit-input-placeholder {
     color: #FFF;
 }
 
-input[type=radio]:not(old){
+.domain-check input[type=radio]:not(old){
     width   : 28px;
     margin  : 0;
     padding : 0;
     opacity : 0;
 }
 
-input[type=radio   ]:not(old) + label{
+.domain-check input[type=radio   ]:not(old) + label{
     display: inline-block;
     margin-left: -28px;
     padding-left: 19px;
@@ -194,7 +194,7 @@ input[type=radio   ]:not(old) + label{
     line-height: 16px;
 }
 
-input[type=radio]:not(old):checked + label{
+.domain-check input[type=radio]:not(old):checked + label{
     background: url("../images/radio-on-button.png") no-repeat;
 }
 

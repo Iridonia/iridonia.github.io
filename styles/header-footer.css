@@ -23,11 +23,6 @@ h2 {
     line-height: 48px;
 }
 
-input[type=text], input[type=email] {
-    color: #FFFFFF;
-    transition: all 0.5s ease;
-}
-
 /* ********************************
    //////////////LOGIN/////////////
    ******************************** */
@@ -100,6 +95,11 @@ input[type=text], input[type=email] {
 
 .menu h1 a {
     color: #000;
+    text-decoration: none;
+}
+
+.menu h1 a:hover {
+    color: #26a65b;
     text-decoration: none;
 }
 
