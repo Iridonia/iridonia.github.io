@@ -891,3 +891,45 @@ input[type=radio]:not(old):checked + label{
         width: auto;
     }
 }
+
+/* 	********************************
+    /////////////BOARD//////////////
+    ********************************  */
+
+.board {
+    background-color: #F6F6F6;
+    margin: 50px 0;
+}
+
+.board .on-left {
+    float: left;
+    width: 50%;
+    margin: 30px;
+}
+
+.board .on-right {
+    float: right;
+}
+
+.board img {
+    max-width: 600px;
+}
+.board::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width: 1057px) {
+    .board {
+        text-align: center;
+        padding: 30px;
+    }
+    .board img {
+        display: none;
+    }
+    .board .on-left {
+        width: 100%;
+        margin: 0;
+    }
+}
