@@ -296,7 +296,8 @@ header::after {
 
 .newsletter button {
     background-color: #26A65B;
-    padding: 16px;
+    line-height: 45px;
+    width: 40px;
     border: none;
     border-radius: 0 5px 5px 0;
     margin: 0;
@@ -308,6 +309,9 @@ header::after {
     .footer-menu {
         flex-direction: column;
         padding: 30px;
+    }
+    .footer-menu article {
+        min-height: 200px;
     }
 }
 
@@ -355,7 +359,6 @@ header::after {
 @media screen and (max-width: 1200px) {
     .newsletter button {
         background-color: #26A65B;
-        padding: 16px;
         width: 45px;
         height: 47px;
         border: none;
