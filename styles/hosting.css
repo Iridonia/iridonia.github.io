@@ -153,3 +153,37 @@
         text-align: center;
     }
 }
+
+/* 	********************************
+    /////////////PROGRESS///////////
+    ********************************  */
+.progress {
+    padding: 20px;
+    text-align: center;
+}
+
+.progress article {
+    display: inline-block;
+    width: 25%;
+    margin: 30px;
+}
+
+.progress article img {
+    max-width: 100px;
+}
+
+.progress article h3 {
+    font-size: 1.571em;
+}
+
+.progress article p {
+    font-size: 0.929em;
+}
+
+@media screen and (max-width: 815px) {
+    .progress article {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}

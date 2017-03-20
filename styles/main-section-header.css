@@ -1,6 +1,6 @@
 .header-section {
     border: 1px solid black;
-    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("http://crazycafe.net/demos/hostwind/images/all_page_bg.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("../images/background-header-all-pages.jpg") no-repeat;
     padding: 79px 80px;
 }
 
